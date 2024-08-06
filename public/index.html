@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express.js Application Documentation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #333;
+      }
+      code {
+        background-color: #f4f4f4;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 4px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Express.js Application Documentation</h1>
+
+    <h2>Endpoints</h2>
+
+    <h4>GET /hello</h4>
+    <p>Returns a success message with "Hello World!".</p>
+    <h5>Response:</h5>
+    <pre><code>{
+  "message": "Success fetch message",
+  "data": "Hello World!"
+}</code></pre>
+
+    <h4>GET /user</h4>
+    <p>Returns user details.</p>
+    <h5>Response:</h5>
+    <pre><code>{
+  "message": "Success fetch user",
+  "data": {
+    "id": 1,
+    "name": "Budi",
+    "username": "budidu",
+    "email": "budidu@mail.com"
+  }
+}</code></pre>
+  </body>
+</html>
